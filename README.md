@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/license-GNU-blue.svg)](LICENSE)
 [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH)
 
-# ADE-SMP
+# ADE-SM
 ADE-SMP Is An Open Sourced Minecraft Cross Platfrom SMP Server.
 It Is Mainly Maintained And Hosted By Ade Issawe aka (7Wdev/Ade216), I Decided To Make It Open Sourced So That It Can Be Controlled And Maintained By Community Out There.
 They Might Provide Such Contributions As:
