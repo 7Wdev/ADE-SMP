@@ -61,14 +61,15 @@ The server is now officially open! (Welcome - Have Fun ♥)
 /You can select land by using a gold shovel
 ```
 
-**NOTICE: BEFORE YOU JOIN BUILDFFA BE SURE THAT YOUR INVENTORY IS EMPTY**
+**NOTICE: BEFORE YOU JOIN ANY MINIGAME BE SURE THAT YOUR INVENTORY IS EMPTY**
 
 **----------- Clients -----------**
 - Android/Ios: ```Pojavlauncher, Minecraft Bedrock```
 - PC/Mac: ```Tlaucher/Official Launcher/Minecraft Windows 10```
 - Ps4/Ps5/Xbox: ```Minecraft Bedrock ```
 
-||Discord : https://discord.gg/bU7HreUJJH
+||Discord : [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH)
+
 Github: #【🍥】github ||
 
 ## PR REQUESTS
