@@ -19,46 +19,49 @@ Also It Makes The Server More Seciure By Increasing The Rate Of Releasing Securi
 So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating With ADE-SMP!
 
 # ABOUT SERVER
-**تم افتتاح السيرفر بشكل رسمي**
+**ADE-SMP Is An Open Sourced Minecraft Cross Platfrom SMP Server.**
+It has many cool features such as Earth Map, Mods, Economy, Shop as well as some MiniGames and more...
+The server is now officially open! (Welcome - Have Fun ♥)
 
 - ip : soon
 
 - map website : soon
 
-- admin panel : soon
+- admin panel : Only Ade Issawe (Ade216/7Wdev) has the rights to use it.
 
 - versions : 
-```1.20 java
-1.20 bedrock```
-
-
-- Some useful commands :
+```1.19.2/1.19.3 java
+1.19.21->1.19.60 bedrock
 ```
-/guidebook بيعطيك كتاب فيه كل شيء بتحتاج تعرفه عن السيرفر 
-/help مساعدة في جميع الكومندات
-/warp (name) تعمل تيليبورت لمنطقة
-/setwarp (name) تحدد منطقة
-/warps تشوف المناطق
-/money للمصاري ودفع ومش دفع وهيك
-/sethome (name) تحدد بيتك
-/home (name) تعمل تيليبورت لبيتك
-/market متجر
-/market sell (price) بيع غرض الي بايدك
-/market send (name) لارسال غرض على البريد
-/bffa join لدخول الحلبة
-/bffa leave للخروج من الحلبة
-/vegas menu دخول الكازينو
-/trash سطل زبالة
-/pay بتعطي مصاري لحدا
-/discord link مشان تربط حسابك الديس بماينكرافت 
-/quickshop انشاء شيست متجر
-/buyclaimblocks يمكنك من شراء بلوكات ارض
-/sellclaimblocks يمكنك من بيع بلوكات ارض
-/unclaim ازالة ملكية الأرض
-/وضع لافتة على الشيست، بتقفل الشيست
-/يمكن تحديد ارض عن طريق شوفيل ذهبي```
 
-**- ملاحظة قبل الدخول للffa يجب تفريغ الانفنتوري.**
+- Some Ingame Useful Commands :
+```
+/guidebook - gives a guide book that teaches you everything you need about the server
+/help - to get all commands list
+/warp (name) - tp to a warp
+/setwarp (name) - to set a warp location
+/warps - to see warps list
+/money - to see your ballance and do other money related stuff
+/sethome (name) - to set a home location
+/home (name) - tp to your home
+/market - gui shop
+/market sell (price) - to sell the item in your hand
+/market send (name) - to send items over mail
+/bffa - join lavaice to join buildffa
+/bffa - leave to leave buildffa
+/vegas - menu to join casino
+/trash - opens a trash
+/pay - to give/pay someone moeny
+/discord link - to link your minecraft account with discord 
+/quickshop - to create a chest based shop
+/buyclaimblocks - to buy land/claim blocks
+/sellclaimblocks - to sell land/claim blocks
+/unclaim - removes ownership over a land
+/Placing a Sign on a chest Locks the chest
+/You can select land by using a gold shovel
+```
+
+**NOTICE: BEFORE YOU JOIN BUILDFFA BE SURE THAT YOUR INVENTORY IS EMPTY**
 
 **----------- Clients -----------**
 - Android/Ios: ```Pojavlauncher, Minecraft Bedrock```
@@ -66,7 +69,7 @@ So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating W
 - Ps4/Ps5/Xbox: ```Minecraft Bedrock ```
 
 ||Discord : https://discord.gg/bU7HreUJJH
-Whatsapp : contact Ade||
+Github: #【🍥】github ||
 
 ## PR REQUESTS
 Geyser is a proxy, bridging the gap between Minecraft: Bedrock Edition and Minecraft: Java Edition servers.
