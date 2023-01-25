@@ -24,9 +24,9 @@ So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating I
 It has many cool features such as Earth Map, Mods, Economy, Shop as well as some MiniGames and more...
 The server is now officially open! (Welcome - Have Fun ♥)
 
-- ip : soon
+- ip : play.ade-smp.tk:19132
 
-- map website : soon
+- map website : play.ade-smp.tk:3000
 
 - admin panel : Only Ade Issawe (Ade216/7Wdev) has the rights to use it.
 
