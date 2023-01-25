@@ -14,6 +14,7 @@ They Might Provide Such Controbutions As:
 - Doing Security Patches
 - Building Worlds,Lobbies And Maps
 etc...
+
 By Open Sourcing The Servers We Enables The Opportunity To Maintain It Faster And In A Proffessional Way That Is Based On Creativity And Cooperation Of The Community!
 Also It Makes The Server More Seciure By Increasing The Rate Of Releasing Security Patches.
 So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating With ADE-SMP!
