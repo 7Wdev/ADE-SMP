@@ -73,29 +73,13 @@ The server is now officially open! (Welcome - Have Fun ♥)
 
 Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 
+## FEATURE REQUEST/BUG REPORT
+
 ## PR REQUESTS
-Geyser is a proxy, bridging the gap between Minecraft: Bedrock Edition and Minecraft: Java Edition servers.
-The ultimate goal of this project is to allow Minecraft: Bedrock Edition users to join Minecraft: Java Edition servers as seamlessly as possible. However, due to the nature of Geyser translating packets over the network of two different games, *do not expect everything to work perfectly!*
-
-Special thanks to the DragonProxy project for being a trailblazer in protocol translation and for all the team members who have joined us here!
-
-### Currently supporting Minecraft Bedrock 1.19.20 - 1.19.51 and Minecraft Java 1.19.3.
-
-## DEVELOPERS WIKI
-Take a look [here](https://wiki.geysermc.org/geyser/setup/) for how to set up Geyser.
-
-[![YouTube Video](https://img.youtube.com/vi/U7dZZ8w7Gi4/0.jpg)](https://www.youtube.com/watch?v=U7dZZ8w7Gi4)
 
 ## FUNDING/DONATION
 
 ## AKNOWLEDGEMETS 
-- Website: https://geysermc.org
-- Docs: https://wiki.geysermc.org/geyser/
-- Download: https://ci.geysermc.org
-- Discord: https://discord.gg/geysermc
-- Donate (GEYSER): https://opencollective.com/geysermc
-- Donate (ADE-SMP): https://www.paypal.com/paypalme/AdeIssawe
-- Test Server: `test.geysermc.org` port `25565` for Java and `19132` for Bedrock
 
 ## CONTRIBUTIONS
 Any contributions are appreciated. Please feel free to reach out to us on [Discord](http://discord.geysermc.org/) if
