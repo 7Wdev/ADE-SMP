@@ -44,6 +44,6 @@ Take a look [here](https://wiki.geysermc.org/geyser/setup/) for how to set up Ge
 - Donate (ADE-SMP): https://www.paypal.com/paypalme/AdeIssawe
 - Test Server: `test.geysermc.org` port `25565` for Java and `19132` for Bedrock
 
-## Contributing
+## CONTRIBUTIONS
 Any contributions are appreciated. Please feel free to reach out to us on [Discord](http://discord.geysermc.org/) if
 you're interested in helping out with Geyser.
