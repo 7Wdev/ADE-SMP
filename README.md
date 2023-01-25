@@ -7,7 +7,7 @@
 
 # ADE-SMP
 ADE-SMP Is An Open Sourced Minecraft Cross Platfrom SMP Server.
-It is Mainly Maintained And Hosted By Ade Issawe aka (7Wdev/Ade216), I Decided To Make It Open Sourced So That It Can Be Controlled And Maintained By Community Out There.
+It Is Mainly Maintained And Hosted By Ade Issawe aka (7Wdev/Ade216), I Decided To Make It Open Sourced So That It Can Be Controlled And Maintained By Community Out There.
 They Might Provide Such Controbutions As:
 - Adding New Features
 - Fixing Bugs
