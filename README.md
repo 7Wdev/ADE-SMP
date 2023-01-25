@@ -19,9 +19,54 @@ Also It Makes The Server More Seciure By Increasing The Rate Of Releasing Securi
 So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating With ADE-SMP!
 
 # ABOUT SERVER
-Geyser is a bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition, closing the gap from those wanting to play true cross-platform.
+**تم افتتاح السيرفر بشكل رسمي**
 
-Geyser is an open collaboration project by [CubeCraft Games](https://cubecraft.net).
+- ip : soon
+
+- map website : soon
+
+- admin panel : soon
+
+- versions : 
+```1.20 java
+1.20 bedrock```
+
+
+- Some useful commands :
+```
+/guidebook بيعطيك كتاب فيه كل شيء بتحتاج تعرفه عن السيرفر 
+/help مساعدة في جميع الكومندات
+/warp (name) تعمل تيليبورت لمنطقة
+/setwarp (name) تحدد منطقة
+/warps تشوف المناطق
+/money للمصاري ودفع ومش دفع وهيك
+/sethome (name) تحدد بيتك
+/home (name) تعمل تيليبورت لبيتك
+/market متجر
+/market sell (price) بيع غرض الي بايدك
+/market send (name) لارسال غرض على البريد
+/bffa join لدخول الحلبة
+/bffa leave للخروج من الحلبة
+/vegas menu دخول الكازينو
+/trash سطل زبالة
+/pay بتعطي مصاري لحدا
+/discord link مشان تربط حسابك الديس بماينكرافت 
+/quickshop انشاء شيست متجر
+/buyclaimblocks يمكنك من شراء بلوكات ارض
+/sellclaimblocks يمكنك من بيع بلوكات ارض
+/unclaim ازالة ملكية الأرض
+/وضع لافتة على الشيست، بتقفل الشيست
+/يمكن تحديد ارض عن طريق شوفيل ذهبي```
+
+**- ملاحظة قبل الدخول للffa يجب تفريغ الانفنتوري.**
+
+**----------- Clients -----------**
+- Android/Ios: ```Pojavlauncher, Minecraft Bedrock```
+- PC/Mac: ```Tlaucher/Official Launcher/Minecraft Windows 10```
+- Ps4/Ps5/Xbox: ```Minecraft Bedrock ```
+
+||Discord : https://discord.gg/bU7HreUJJH
+Whatsapp : contact Ade||
 
 ## PR REQUESTS
 Geyser is a proxy, bridging the gap between Minecraft: Bedrock Edition and Minecraft: Java Edition servers.
