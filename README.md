@@ -18,10 +18,6 @@ By Open Sourcing The Servers We Enables The Opportunity To Maintain It Faster An
 Also It Makes The Server More Seciure By Increasing The Rate Of Releasing Security Patches.
 So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating With ADE-SMP!
 
-ADE-SMP is an open source Minecraft SMP server template, check it out: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)
-
-You would like to see ADE-BEDROCK: [ADE-BEDROCK](https://github.com/7Wdev/ADE-BEDROCK)
-
 # ABOUT SERVER
 Geyser is a bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition, closing the gap from those wanting to play true cross-platform.
 
