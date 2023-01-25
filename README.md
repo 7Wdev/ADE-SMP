@@ -71,7 +71,7 @@ The server is now officially open! (Welcome - Have Fun ♥)
 
 ||Discord : [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH)
 
-Github: #【🍥】github ||
+Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 
 ## PR REQUESTS
 Geyser is a proxy, bridging the gap between Minecraft: Bedrock Edition and Minecraft: Java Edition servers.
