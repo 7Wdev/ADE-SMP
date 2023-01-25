@@ -16,8 +16,8 @@ They Might Provide Such Contributions As:
 etc...
 
 By Open Sourcing The Server We Enables The Opportunity To Maintain It Faster And In A Proffessional Way That Is Based On Creativity And Cooperation Of The Community!
-Also It Makes The Server More Seciure By Increasing The Rate Of Releasing Security Patches.
-So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating With ADE-SMP!
+Also It Makes The Server More Secure By Increasing The Rate Of Releasing Security Patches.
+So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating In ADE-SMP!
 
 # ABOUT SERVER
 **ADE-SMP Is An Open Sourced Minecraft Cross Platfrom SMP Server.**
