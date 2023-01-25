@@ -82,5 +82,5 @@ Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 ## AKNOWLEDGEMETS 
 
 ## CONTRIBUTIONS
-Any contributions are appreciated. Please feel free to reach out to us on [Discord](http://discord.geysermc.org/) if
-you're interested in helping out with Geyser.
+Any contributions are appreciated. Please feel free to reach out to us on [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH) if
+you're interested in helping out with ADE-SMP.
