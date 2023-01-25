@@ -6,8 +6,17 @@
 [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH)
 
 # ADE-SMP
-ADE J2BT is a GeyserFork that is modified and handled by 7Wdev to serve all ADE-SMP needs.
-All the copyrights and credits returns to the geyser team as well as the collaborators.
+ADE-SMP Is An Open Sourced Minecraft Cross Platfrom SMP Server.
+It is Mainly Maintained And Hosted By Ade Issawe aka (7Wdev/Ade216), I Decided To Make It Open Sourced So That It Can Be Controlled And Maintained By Community Out There.
+They Might Provide Such Controbutions As:
+- Adding New Features
+- Fixing Bugs
+- Doing Security Patches
+- Building Worlds,Lobbies And Maps
+etc...
+By Open Sourcing The Servers We Enables The Opportunity To Maintain It Faster And In A Proffessional Way That Is Based On Creativity And Cooperation Of The Community!
+Also It Makes The Server More Seciure By Increasing The Rate Of Releasing Security Patches.
+So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating With ADE-SMP!
 
 ADE-SMP is an open source Minecraft SMP server template, check it out: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)
 
