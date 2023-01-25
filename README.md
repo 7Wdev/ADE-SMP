@@ -30,7 +30,8 @@ The server is now officially open! (Welcome - Have Fun ♥)
 - admin panel : Only Ade Issawe (Ade216/7Wdev) has the rights to use it.
 
 - versions : 
-```1.19.2/1.19.3 java
+```
+1.19.2/1.19.3 java
 1.19.21->1.19.60 bedrock
 ```
 
