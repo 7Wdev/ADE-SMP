@@ -1,0 +1,17 @@
+{
+    "uuid": "b179d484bb0a49deb9f03c7359804119",
+    "userName": "Admin1234567",
+    "passWord": "c06a9ee096584250d282527c3df1402b",
+    "salt": "",
+    "permission": 10,
+    "registerTime": "15/01/2023, 23:24:36",
+    "loginTime": "23/01/2023, 23:11:52",
+    "instances": [
+        {
+            "instanceUuid": "25687c9579bd4255b0266849cbc70b71",
+            "serviceUuid": "a9b91286156c4ef58b99b1f306a9b2c9"
+        }
+    ],
+    "apiKey": "",
+    "isInit": false
+}
