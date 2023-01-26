@@ -1,17 +1,18 @@
 # CREDITS AND THANKS
 
-Type: world
-
 Name: world
+
+Type: world
 
 Link: (https://earth.motfe.net/)
 
 Author: Mattias Brennecke
 
-
-Type: world
+<br >
 
 Name: SimpleKitPvp
+
+Type: world
 
 Link: (https://www.planetminecraft.com/project/kitpvparenabystalky/)
 
