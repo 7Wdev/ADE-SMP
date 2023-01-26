@@ -87,7 +87,7 @@ Imagine a world where every block is a building block for something great, where
 
 We are humbly asking for your support to help us cover expenses such as server costs, development resources, and other expenses associated with running the project.
 
-You can make a difference by donating via ![[PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/AdeIssawe).
+You can make a difference by donating via [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/AdeIssawe).
 
 Together, we can make ADE-SMP a world where imagination has no limits and adventure is always within reach. Thank you for your support!
 
