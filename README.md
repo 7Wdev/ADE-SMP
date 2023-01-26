@@ -79,6 +79,7 @@ Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 ## PR REQUESTS
 
 ## FUNDING/DONATION
+![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
 
 ## AKNOWLEDGEMETS 
 I would like to express my deepest gratitude to the individuals and organizations who contributed and supported the ADE-SMP project.
