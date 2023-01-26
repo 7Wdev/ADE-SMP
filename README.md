@@ -3,7 +3,7 @@
 [![forthebadge made-with-java](https://forthebadge.com/images/badges/made-with-java.svg)](https://java.com/)
 
 [![License: GNU](https://img.shields.io/badge/license-GNU-blue.svg)](LICENSE)
-[![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bU7HreUJJH)
 
 # ADE-SMP
 ADE-SMP Is An Open Sourced Minecraft Cross Platfrom SMP Server.
@@ -70,7 +70,7 @@ The server is now officially open! (Welcome - Have Fun ♥)
 - PC/Mac: ```Tlaucher/Official Launcher/Minecraft Windows 10```
 - Ps4/Ps5/Xbox: ```Minecraft Bedrock ```
 
-||Discord : [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH)
+||Discord : [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bU7HreUJJH)
 
 Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 
@@ -109,5 +109,5 @@ Finally, I would like to acknowledge all the open-source libraries, frameworks, 
 Thank you all for your support and help.
 
 ## CONTRIBUTIONS
-Any contributions are appreciated. Please feel free to reach out to us on [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH) if
+Any contributions are appreciated. Please feel free to reach out to us on [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bU7HreUJJH) if
 you're interested in helping out with ADE-SMP.
