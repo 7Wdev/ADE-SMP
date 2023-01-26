@@ -79,7 +79,17 @@ Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 ## PR REQUESTS
 
 ## FUNDING/DONATION
-![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
+Adventure awaits in the world of ADE-SMP, but we need your help to keep the journey going.
+As a community-driven open-source Minecraft server, we rely on the support of players and users like you to keep our server up and running.
+From server costs to development resources, it takes a village to keep ADE-SMP going strong.
+
+Imagine a world where every block is a building block for something great, where every step is a step towards an adventure. This is the world we have built together, and with your help, we can continue to build it.
+
+We are humbly asking for your support to help us cover expenses such as server costs, development resources, and other expenses associated with running the project.
+
+You can make a difference by donating via ![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)(https://paypal.me/AdeIssawe).
+
+Together, we can make ADE-SMP a world where imagination has no limits and adventure is always within reach. Thank you for your support!
 
 ## AKNOWLEDGEMETS 
 I would like to express my deepest gratitude to the individuals and organizations who contributed and supported the ADE-SMP project.
