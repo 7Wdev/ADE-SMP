@@ -1,0 +1,227 @@
+## +-------------+ ##
+#  Custom commands  #
+## +-------------+ ##
+
+commands:
+  info:
+    description: "Information about the player!"
+    inputs:
+      player:
+        type: MinecraftPlayer
+        name: "player"
+        description: "The player to check"
+        required: false
+
+    actions:
+      player:
+        type: GetCommandExecutorPlayer
+        onlyIfNull: player
+      discordMember:
+        type: GetDiscordMemberFromMinecraftPlayer
+        from: player
+      joinDate:
+        type: DefineText
+        value: "This user is not linked!"
+        valueElse: "{var_discordMember:timeCreated}"
+        onlyIfNull: discordMember
+
+    enablePlaceholdersFor: player
+    message:
+      color: 0x3242a8
+      fields:
+        "Username":
+          text: "%player_name%"
+          inline: true
+        "Status":
+          text: "%player_online%"
+          inline: true
+        "Join date":
+          text: "{var_joinDate}"
+          inline: true
+
+  work:
+    description: "Work for money"
+    format:
+      - "randomNumber"
+    actions:
+      player:
+        type: GetCommandExecutorPlayer
+      erlMsg:
+        type: FailMessage
+        onlyIfNull: player
+        message: "Your account is not linked!"
+      randomNumber:
+        type: RandomNumber
+        max: 200
+        min: 10
+      randomText:
+        type: RandomText
+        options:
+          - "You have worked for 8 hours and received {var_randomNumber}"
+          - "You have done a good job! Received {var_randomNumber}"
+      addmoney:
+        type: IncreasePlayerMoney
+        amount: randomNumber
+        player: player
+    message:
+      color: "#11a638"
+      description: "{var_randomText}"
+
+# All available options
+#  test:
+#
+#    inputs:
+#      player1:
+#        type: MinecraftPlayer
+#        name: "Player"
+#        description: "The other player"
+#      player2:
+#        type: MinecraftPlayer
+#        name: "Other Player"
+#        description: "The other player"
+##        failIf: false
+#      double:
+#        type: Double
+#        name: "A number"
+#        descrption: "A number"
+#        failIf: 69
+#        failIfBigger: 40
+#        failIfSmaller: 10
+#      number:
+#        type: Number
+#        name: "A number"
+#        descrption: "A number"
+#        failIf: 69
+#        logicFailReason: "Some weird reason it failed since the failIf is equal to TRUE"
+#        failIfBigger: 40
+#        failIfSmaller: 10
+#      int:
+#        type: Int
+#        name: "whole number"
+#        description: "A whole number"
+#        failIf: 69
+#        failIfBigger: 40
+#        failIfSmaller: 10
+#      wholeNum:
+#        type: WholeNumber
+#        name: "whole number"
+#        description: "A whole number"
+#        failIf: 69
+#        failIfBigger: 40
+#        failIfSmaller: 10
+#      discordUser:
+#        type: DiscordUser
+#        name: "User"
+#        description: "An discord user"
+#      discordMember:
+#        type: DiscordMember
+#        name: "Member"
+#        description: "An discord member"
+#        failIfRole: "123457891012141618"
+#        failIfMissingRole: "123457891012141618"
+#
+#    enablePlaceholdersFor: player1
+#    enableOtherPlaceholdersFor: player2
+#    actions:
+#      var0:
+#        type: DefineNumber
+#        value: 5.6
+#      var1:
+#        type: DefineDouble
+#        value: 5.6
+#      var2:
+#        type: DefineInt
+#        value: 6
+#      var3:
+#        type: DefineInt
+#        value: 6
+#      var4:
+#        type: DefineString
+#        value: "Hi"
+#      var5:
+#        type: DefineText
+#        value: "Hi"
+#      var6:
+#        type: DefineBoolean
+#        value: true
+#
+#      var7:
+#        type: RandomNumber
+#        min: 50
+#        max: 100
+#        failIf: 69
+#        failIfBigger: 40
+#        failIfSmaller: 10
+#        onlyIf: var6
+#      var8:
+#        type: RandomText
+#        options:
+#          - "text 1"
+#          - "text 2"
+#        failIf: "text 1"
+#        onlyIf: var6
+#      var9:
+#        type: TextEquals
+#        text1: "test"
+#        text2: "test2"
+#        onlyIf: var6
+#      var10:
+#        type: NumberEquals
+#        num1: 56
+#        num2: 55
+#        onlyIf: var6
+#      var21:
+#        type: DiscordUserEquals
+#        num1: discordUser
+#        num2: discordMember
+#        onlyIf: var6
+#      var22:
+#        type: DiscordMemberEquals
+#        num1: discordUser
+#        num2: discordMember
+#        onlyIf: var6
+#      var11:
+#        type: Smaller
+#        num1: 5
+#        num2: 2
+#        onlyIf: var6
+#      var12:
+#        type: Bigger
+#        num1: 5
+#        num2: 6
+#        onlyIf: var6
+#      var13:
+#        type: BiggerOrEqual
+#        num1: 5
+#        num2: 5
+#        onlyIf: var6
+#      var14:
+#        type: SmallerOrEqual
+#        num1: 5
+#        num2: 6
+#        onlyIf: var6
+#      var15:
+#        type: IncreasePlayerMoney
+#        amount: 525
+#        failIf: 69
+#        failIfBigger: 40
+#        failIfSmaller: 10
+#        onlyIf: var14
+#      var16:
+#        type: DecreasePlayerMoney
+#        amount: 525
+#        failIf: 69
+#        failIfBigger: 40
+#        failIfSmaller: 10
+#        onlyIf: var13
+#      var17:
+#        type: IsNull
+#        from: discordUser
+#      var18:
+#        type: GetMinecraftPlayer
+#        from: discordUser
+#        onlyNotIf: var17
+#      var20:
+#        type: GetPlayer
+#        from: discordMember
+#        onlyIf: discordMember

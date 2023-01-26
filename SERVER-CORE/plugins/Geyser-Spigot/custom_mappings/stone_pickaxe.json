@@ -1,0 +1,11 @@
+{
+    "format_version": "1",
+    "items": {
+        "minecraft:stone_pickaxe": [
+            {
+                "name": "stone_hammer",
+                "custom_model_data": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "format_version": "1",
+    "items": {
+        "minecraft:recovery_compass": [
+            {
+                "name": "resonance_core",
+                "custom_model_data": 1
+            }
+        ]
+    }
+}

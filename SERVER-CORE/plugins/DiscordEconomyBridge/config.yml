@@ -1,0 +1,90 @@
+###      Discord Economy Bridge      ###
+###   Made by Pliexe/DiamondZombie   ###
+###                                  ###
+### +------------------------------+ ###
+
+# +-------------------------+ #
+# DO NOT TOUCH VERSION NUMBER #
+VERSION: 4.5
+# +-------------------------+ #
+
+# DO NOT SHARE THE BOT TOKEN WITH ANYONE! If you are using DiscordSRV you can ignore this field!
+TOKEN: your bot token
+
+# Independent usage of plugin alongside with DiscordSRV
+# This means that DiscordEconomyBridge will ignore DiscordSRV and work Standalone
+independent: true
+
+# This only works in "independent" mode. Use this to enable the usage of DiscordSRV linking system inside "independent" mode
+useDiscordSRVLinking: true
+
+# Status
+# Type of status, can be: (Playing, playing), (Watching, watching), (Listening, listening), (Streaming, streaming)
+# You can remove statusType and statusMessage if you want!
+statusType: Playing
+statusMessage: 'a!help'
+# Use this when using streaming status type to link your stream (not required when using streaming type)
+# statusStreamURL: "twitch.tv"
+
+# Bot prefix
+PREFIX: 'a!'
+
+# Currency
+Currency: $
+CurrencyLeftSide: false
+
+# Max users to show in leaderboard
+leaderboardSlots: 10
+
+# Ignore permission check for discord administrator permission
+ignorePermissionsForAdministrators: false
+
+# Disable viewing balance of other users in !balance command
+disableViewingOfOtherUsers: true
+
+discordModerators: 
+#  - "477622334182785025"
+#  - ROLEID2
+- "role id"
+
+slashCommandServers: 
+- "role ids"
+- "role ids"
+
+## DiscordSRV warn
+# If set to true the unsupported commands that only work with DiscordSRV will not reply
+noDiscordSRVwarn: false
+
+# Min_Max wager/bet
+maxBet: 100000000000000000
+minBet: 50
+### Commands customization ###
+# Command customization has been moved to discord_messages.yml
+
+# Timeout in seconds. The amount of time a command will wait for user input
+commandTimeout: 150
+# Timeout in seconds. The amount of time a command will wait for user input inside a game
+gameTimeout: 300
+## Aliases
+
+aliases: 
+   blackjack: 
+   - bj
+   coinflip: 
+   - cf
+   leaderboard: 
+   - lb
+   - top
+   balance: 
+   - bal
+   removemoney: 
+   - remmoney
+   - remoney
+   rockpaperscissors: 
+   - rps
+
+# Cooldown settings
+cooldowns: 
+   blackjack: 300
+   coinflip: 300
+   rockpaperscissors: 300

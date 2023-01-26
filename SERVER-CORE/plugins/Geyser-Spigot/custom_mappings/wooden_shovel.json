@@ -1,0 +1,11 @@
+{
+    "format_version": "1",
+    "items": {
+        "minecraft:wooden_shovel": [
+            {
+                "name": "wooden_excavator",
+                "custom_model_data": 1
+            }
+        ]
+    }
+}

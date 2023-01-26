@@ -1,0 +1,472 @@
+###################################
+## Discord Message Configuration ##
+###################################
+
+# Inbuilt Placeholders
+# %player_name% = minecraft player username
+# %player_uuid% = minecraft player uuid
+# %discord_user_username% = Discord username
+# %discord_user_discriminator% = Discriminator of user
+# %discord_user_tag% = Tag of user
+# %discord_user_avatar_url% = Discord avatar url
+# %discord_user_nickname% = Discord user nickname
+# %discord_command_name% = Name of the command
+# %discord_command_prefix% = Prefix of the command
+# %discord_command_usage% = Usage of the command
+# %discord_user_id% = Id of user
+
+# Per command special placeholders are stored as {placeholder}
+
+# Button click by someone who's not allowed to click it
+onWrongClickMessage:
+  content: "You may not interact with this menu!"
+
+# Discord no permission message
+noPermissionMessage:
+  description: "You don't have permission to run that command!"
+  color: 0xb72d0e
+
+# Supported placeholders:
+# {message}
+
+failMessage:
+  description: ":x: {message}"
+  fields:
+    Usage:
+      text: "%discord_command_prefix%%discord_command_name% %discord_command_usage%"
+  color: 0xb72d0e
+
+# Error message
+
+errorMessage:
+  color: "#e31e00"
+  description: "An error occurred :("
+
+##########################
+# addmoney command embed #
+##########################
+# The amount of money increased {amount_increase}
+
+addmoneyCommandEmbed:
+  description: "Added {amount_increase} to %player_name%'s balance"
+  color: 0xe0c308
+
+#############################
+# removemoney command embed #
+#############################
+
+removemoneyCommandEmbed:
+  description: "Removed {amount_decrease} from %player_name%'s balance"
+  color: 0xe0c308
+
+#########################
+# balance command embed #
+# %custom_vault_eco_balance% custom one for balance but you can use the placeholder one
+#########################
+
+balanceCommandEmbed:
+  color: "ifOnline ? 0x26b207 : 0xb72d0e"
+  fields:
+    "Username":
+      text: "%player_name%"
+      inline: true
+    "Status":
+      # Use playerStatus for lowercase outcome
+      text: "%custom_player_online%"
+      inline: true
+    "Balance":
+      text: "%custom_vault_eco_balance%"
+      inline: true
+
+######################
+# help command embed #
+######################
+
+helpCommandEmbed:
+  title: "These are the available commands"
+  color: "#0048ad"
+  fields:
+    "%discord_command_prefix%balance":
+      text:
+        - "See a player's current balance"
+        - "Usage: %discord_command_prefix%balance <username or uuid"
+        - "Alias: %discord_command_prefix%bal"
+      inline: false
+    "%discord_command_prefix%addmoney":
+      text:
+        - "Add money to a player"
+        - "Usage: %discord_command_prefix%addmoney <amount> <username or uuid>"
+      inline: false
+    "%discord_command_prefix%removemoney":
+      text:
+        - "Remove money from a player"
+        - "Usage: %discord_command_prefix%removemoney <amount> <username or uuid>\nAlias: %discord_command_prefix%remmoney"
+      inline: false
+    "%discord_command_prefix%leaderboard":
+      text:
+        - "Shows the current leaderboard"
+        - "Usage: %discord_command_prefix%leaderboard"
+        - "Alias: %discord_command_prefix%top, %discord_command_prefix%lb"
+      inline: false
+    "%discord_command_prefix%blackjack":
+      text:
+        - "Play a game of blackjack for a specific amount of bet!"
+        - "Usage: %discord_command_prefix%blackjack <bet>"
+        - "Alias: %discord_command_prefix%bj"
+      inline: false
+    "%discord_command_prefix%coinflip":
+      text:
+        - "Flip a coin and wager on it against another player!"
+        - "Usage: %discord_command_prefix%coinflip"
+        - "Alias: %discord_command_prefix%cf"
+      inline: false
+    "%discord_command_prefix%pay":
+      text:
+        - "Send/Pay an certain amount of money to a player!"
+        - "Usage: %discord_command_prefix%pay @user amount"
+        - "Alias: %discord_command_prefix%cf"
+      inline: false
+    "%discord_command_prefix%rockpaperscissors":
+      text:
+        - "Play a game of rock papers scissors!"
+        - "Usage: %discord_command_prefix%rockpaperscissors [user] <bet> [rounds](max 32)"
+        - "Alias: %discord_command_prefix%cf"
+      inline: false
+
+#############################
+# leaderboard command embed #
+#############################
+# note that this only accepts descriptionRepeat or fieldRepeat
+
+leaderboardCommandEmbed:
+  color: 0x2162cc
+  descriptionRepeat: "{index}# %player_name% - %custom_vault_eco_balance%"
+#  fieldRepeatName: "%player_name%"
+#  fieldRepeatValue: "%custom_vault_eco_balance%"
+#  fieldRepeatInline: false
+
+##########################
+# coinflip command embed #
+##########################
+
+# Game outcome
+coinflipCommandEmbed:
+  content: "** **"
+  color: "#4287f5"
+  description: "**%discord_user_username%** has won the coinflip. The coin landed on `{land_side}`!"
+  fields:
+    "Amount wagered":
+      text: "{amount_wagered}"
+
+
+
+# Accept/Confirm
+coinflipCommandConfirmEmbed:
+  content: "<@%discord_user_id%>"
+  color: "#ebd407"
+  ping: true
+  description: "**%discord_user_username%** has challenged you to a coinflip! %discord_other_username%"
+  fields:
+    "Amount wagered":
+      text: "{amount_wagered}"
+
+# Decline
+coinflipCommandDeclineEmbed:
+  content: "** **"
+  color: "#d62400"
+  description: "%discord_user_username%. **%discord_other_user_username%** has declined the coinflip!"
+  fields:
+    "Amount wagered":
+      text: "{amount_wagered}"
+
+coinflipButtonAcceptLabel: "Accept"
+coinflipButtonDeclineLabel: "Decline"
+
+###########################
+# blackjack command embed #
+###########################
+
+blackjackButtonHitLabel: "Hit"
+blackjackButtonStandLabel: "Stand"
+blackjackButtonDoubleDownLabel: "Double Down"
+
+blackjackCommandShowEmbed:
+  color: 0xff9100
+  fields:
+    "Dealer's hand":
+      text: ":flower_playing_cards: {enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+  footer:
+    text: "If you don't anwser in 5 minutes it will automatically pick stand!"
+
+# {won_amount} = The amount the user has won
+
+## Blackjack outcome
+
+# Player wins
+blackjackCommandBlackjackOutcomePlayerEmbed:
+  color: 0x1af025
+  title: "Blackjack! You have won!"
+  description: "Your hand was exactly 21. You win {win_amount}"
+  fields:
+    "Dealer's hand":
+      text: "{enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+
+# Dealer wins
+blackjackCommandBlackjackOutcomeDealerEmbed:
+  color: 0xff2600
+  title: "Blackjack! Dealer has won!"
+  description: "The dealer's hand was exactly 21. You lost {lose_amount}"
+  fields:
+    "Dealer's hand":
+      text: "{enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+
+## Draw outcome
+# Normal
+blackjackCommandDrawOutcomeEmbed:
+  color: 0xf0e11a
+  title: "Push (Draw)"
+  description: "You and the dealer's hand had the same value of cards"
+  fields:
+    "Dealer's hand":
+      text: "{enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+# Blackjack
+blackjackCommandDrawBlackjackOutcomeEmbed:
+  color: 0xf0e11a
+  title: "Push (Draw)"
+  description: "You and the dealer both got blackjack!"
+  fields:
+    "Dealer's hand":
+      text: "{enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+
+## Bust outcome
+# Player's hand
+blackjackCommandBustPlayerEmbed:
+  color: 0xff2600
+  title: "You Busted!"
+  description: "Your hand went over 21 `Bust!`. You lost {lose_amount}"
+  fields:
+    "Dealer's hand":
+      text: "{enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+# Dealer's hand
+blackjackCommandBustDealerEmbed:
+  color: 0x1af025
+  title: "Dealer Bust!"
+  description: "The dealer's hand went over 21, `Bust!`. You win {win_amount}"
+  fields:
+    "Dealer's hand":
+      text: "{enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+
+## Regular outcome
+# Player win
+blackjackCommandPlayerWinEmbed:
+  color: 0x1af025
+  title: "You have won!"
+  description: "The dealer's hand had less value in their cards than your hand. You won {win_amount}"
+  fields:
+    "Dealer's hand":
+      text: "{enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+# Dealer win
+blackjackCommandDealerWinEmbed:
+  color: 0xff2600
+  title: "Dealer has won!"
+  description: "The dealer's hand had more value in their cards than your hand. You lost {lose_amount}"
+  fields:
+    "Dealer's hand":
+      text: "{enemy_cards}\nValue: {enemy_cards_value}"
+      inline: true
+    "Your hand":
+      text: "{your_cards}\nValue: {your_cards_value}"
+      inline: true
+
+
+
+#######################
+# pay command message #
+#######################
+
+payMessage:
+  description: "You sent {amount} to %player_other_name% (%discord_other_user_tag%)"
+  color: "#344feb"
+
+
+#####################################
+# rockpaperscissors command message #
+#####################################
+
+rpsCommand:
+  messages:
+    # Message when a user is challenged
+    challenge:
+      title: "Do you want to accept? %discord_other_user_tag% (%player_other_name%)"
+      description: "%discord_user_tag% (%player_name%) has challenged you to {rounds} rounds of Rock Paper Scissors!"
+      color: "#e0e019"
+
+    # Message if the opponent declines the challenge.
+    declined:
+      color: 0xff2600
+      title: "Rock Paper Scissors cancelled"
+      description: "%discord_other_user_username%'s has declined the match."
+
+    # Game message
+    game:
+      color: "#4287f5"
+      title: "Rock Paper Scissors"
+      description: "Waiting for lock-in. Round {round} out of {rounds}"
+      fields:
+        "%discord_user_username% - {points_1} - {p1_locked_in}":
+          text: "\n{rounds_1}\n"
+        "%discord_other_user_username% - {points_2} - {p2_locked_in}":
+          text: "\n{rounds_2}\n"
+
+    # Game against bot
+    gameBot:
+      color: "#4287f5"
+      title: "Rock Paper Scissors"
+      description: "Waiting for lock-in. Round {round} out of {rounds}"
+      fields:
+        "Bot - {points_1}":
+          text: "\n{rounds_1}\n"
+        "%discord_user_username% - {points_2}":
+          text: "\n{rounds_2}\n"
+
+    # Message when game is done main(%player_name% is the winner) and other(%player_other_name%) is the loser
+    gameOver:
+      color: "#34d90b"
+      title: "Rock Paper Scissors. Game has finished!"
+      description: "%discord_user_username% (%player_name%) has won vs %discord_other_user_username% (%player_other_name%). Better luck next time %discord_other_user_username%!"
+      fields:
+        "%{p1}discord_user_username% - {points_1}":
+          text: "\n{rounds_1}\n"
+        "%{p2}discord_user_username% - {points_2}":
+          text: "\n{rounds_2}\n"
+
+    draw:
+      color: "#34d90b"
+      title: "Rock Paper Scissors. Game has finished! Draw!"
+      description: "%discord_user_username% (%player_name%) and %discord_other_user_username% (%player_other_name%) had same amount of points."
+      fields:
+        "%{p1}discord_user_username% - {points_1}":
+          text: "\n{rounds_1}\n"
+        "%{p2}discord_user_username% - {points_2}":
+          text: "\n{rounds_2}\n"
+
+    # Message when game is done against the bot
+
+    gameOverBotPlayerWin:
+      color: "#34d90b"
+      title: "Rock Paper Scissors. Game has finished!"
+      description: "%discord_user_username% (%player_name%) has won vs the bot!"
+      fields:
+        "Bot - {points_1}":
+          text: "\n{rounds_1}\n"
+        "%discord_user_username% - {points_2}":
+          text: "\n{rounds_2}\n"
+
+    gameOverBotPlayerLose:
+      color: "#34d90b"
+      title: "Rock Paper Scissors. Game has finished!"
+      description: "%discord_user_username% (%player_name%) has lost vs the bot!"
+      fields:
+        "Bot - {points_1}":
+          text: "\n{rounds_1}\n"
+        "%discord_user_username% - {points_2}":
+          text: "\n{rounds_2}\n"
+
+    drawBot:
+      color: "#34d90b"
+      title: "Rock Paper Scissors. Game has finished! Draw!"
+      description: "%discord_user_username% (%player_name%) and the bot had same amount of points."
+      fields:
+        "Bot - {points_1}":
+          text: "\n{rounds_1}\n"
+        "%discord_user_username% - {points_2}":
+          text: "\n{rounds_2}\n"
+
+
+
+  # The text to display with {current_turn_playing} when it's player's turn
+  botCurrentPlayingPlayer: "%discord_user_username%"
+  # The text between rounds
+  joinedTextForStatus: " | "
+  # Text to display for round
+  roundText: "{picked} {result}"
+  # If no rounds were played
+  noRoundsPlayed: "Not played yet!"
+
+  # Text for when the user locked in their anwser
+  textLockedIn: "Locked in!"
+  textWaitingForLockIn: "Waiting for play..."
+
+  # Text when someone clicks a button after they locked in
+  textAfterLockIn: "You have already picked your answer"
+
+  # Text for round win
+  roundWin: ":white_check_mark:"
+  roundLose: ":x:"
+
+  # Text to display for paper
+  rpcPaper: ":page_with_curl:"
+  # Text to display for rock
+  rpcRock: ":rock:"
+  # Text to display for scissor
+  rpcScissor: ":scissors:"
+
+  # Label to display for button
+  rpcRockButtonLabel: "🪨"
+  rpcPaperButtonLabel: "📃"
+  rpcScissorButtonLabel: "✂️"
+
+  # Accept label on button
+  buttonAcceptLabel: "Accept"
+  # Decline label on button
+  buttonDeclineLabel: "Decline"
+
+###################
+# Account linking #
+###################
+
+accountLinkSuccessful:
+  color: "#00b806"
+  title: "Account successfully linked to Discord!"
+  description: "Your account has been linked to **%player_name%** (%player_uuid%)."
+
+accountLinkInvalid:
+  content: "Are you sure this is a code? A code only contains 4 characters and numbers."
+
+accountLinkUnknown:
+  content: "I don't know of such code, try again."
+
+accountAlreadyLinked:
+  content: "Your account is already linked to **%player_name%** (%player_uuid%)."

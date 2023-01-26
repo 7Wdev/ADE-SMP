@@ -1,0 +1,11 @@
+{
+    "format_version": "1",
+    "items": {
+        "minecraft:diamond_shovel": [
+            {
+                "name": "diamond_excavator",
+                "custom_model_data": 1
+            }
+        ]
+    }
+}

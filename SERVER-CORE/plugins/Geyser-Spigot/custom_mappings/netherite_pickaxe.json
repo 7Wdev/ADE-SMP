@@ -1,0 +1,11 @@
+{
+    "format_version": "1",
+    "items": {
+        "minecraft:netherite_pickaxe": [
+            {
+                "name": "netherite_hammer",
+                "custom_model_data": 1
+            }
+        ]
+    }
+}

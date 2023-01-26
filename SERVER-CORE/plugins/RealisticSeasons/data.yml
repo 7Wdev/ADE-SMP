@@ -1,0 +1,30 @@
+worlds:
+  SimpleKitPvp: RESTORE
+  world: SUMMER
+dates:
+  SimpleKitPvp:
+    day: 21
+    month: 4
+    year: 1
+  world:
+    day: 3
+    month: 8
+    year: 1
+players:
+  colorsdisabled: []
+  tempdisabled: []
+  particlesdisabled: []
+  knownplayers:
+  - 0e013e56-773f-3e0f-8230-069efbcc2533
+  - 50f900b4-2613-3a85-9be8-cf72fa3d4e55
+  - 00000000-0000-0000-0009-01fb775b7a6e
+  - df62da2d-e6cc-3c8a-a5d0-0f8b9da56d88
+  - 906e40e2-ee0b-38ab-a6ad-6ed96849e762
+  - 95b9d450-808d-3e3a-b9c5-2f45b362923f
+  - 34ed4bef-32fe-37ab-bc19-883004d097a2
+  fahrenheit-mode: []
+temperature:
+  world: true
+  world_nether: true
+  world_the_end: true
+time-paused: []

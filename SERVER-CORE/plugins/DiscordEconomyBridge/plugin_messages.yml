@@ -1,0 +1,34 @@
+###################
+# Plugin messages #
+###################
+
+# Message on account linking attempt.
+linkAccount: "\n\"&9&l{code}&r\". Direct Message (Private Message) {bot} the code to link your account to discord!"
+# Message if the account is already linked. !linkdiscord
+alreadyLinked: "\n&6&lYour account is already linked to discord! Type /unlinkdiscord to unlink it."
+# Message if the player already started the linking process!
+linkingInProcess: "You have already started the link process! Your code was &l&9{code}&r."
+
+# Message if the account is not linked. !unlinkdiscord
+accountNotLInked: "\n&4Your account is not linked to discord!"
+# Message if the account got successfully unlinked.
+unlinkAccount: "\n&2You have successfully unlinked your account from discord!"
+
+# Message if the bot is not in independent mode while using DiscordSRV
+helpCommandFail:
+  - "\n&l ▁▂▃▄▅ &3&lDiscordEconomyBridge Commands&r&l ▅▄▃▂▁"
+  - " "
+  - " &4&lCommands for linking and unlinking are only available in dependent mode (Configured in config) or without DiscordSRV"
+
+# Help message for normal help
+helpCommand:
+  - "\n&l ▁▂▃▄▅ &3&lDiscordEconomyBridge Commands&r&l ▅▄▃▂▁"
+  - " "
+  - "&l > &e&l/linkdiscord&r&l -&r Link your minecraft account to discord bot!"
+  - "&l > &e&l/unlinkdiscord&r&l -&r Unlink your minecraft account from discord bot!"
+
+# Message error in console if the console can't run the command
+noConsole: "This command can't be run in the console!"
+
+# Message if linking is disabled
+linkingDisabled: "Linking has been disabled through this plugin."

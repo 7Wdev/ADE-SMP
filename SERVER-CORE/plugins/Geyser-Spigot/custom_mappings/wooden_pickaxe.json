@@ -1,0 +1,11 @@
+{
+    "format_version": "1",
+    "items": {
+        "minecraft:wooden_pickaxe": [
+            {
+                "name": "wooden_hammer",
+                "custom_model_data": 1
+            }
+        ]
+    }
+}

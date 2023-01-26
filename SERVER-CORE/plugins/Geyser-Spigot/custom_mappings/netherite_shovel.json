@@ -1,0 +1,11 @@
+{
+    "format_version": "1",
+    "items": {
+        "minecraft:netherite_shovel": [
+            {
+                "name": "netherite_excavator",
+                "custom_model_data": 1
+            }
+        ]
+    }
+}

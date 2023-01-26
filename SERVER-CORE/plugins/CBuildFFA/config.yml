@@ -1,0 +1,87 @@
+Messages:
+  Prefix: §c§lADE§7§l|§a§lFFA &r
+  noPerm: '&cYou are not allowed to do this!'
+  arenaCreated: '&7Arena &b%arena% &7created'
+  spawnSet: '&7Spawn for &b%arena% &7set!'
+  killYSet: '&7Kill Y coordination for &b%arena% &7set!'
+  arenaJoined: '&7Joined arena &b%arena%'
+  arenaLeft: '&7Left arena &b%arena%'
+  configReloaded: '&7Config reloaded!'
+  noArena: '&cThere are no arenas created!'
+  notInArena: '&cYou are not in arena!'
+  arenaNotExist: '&cThis arena does not exist!'
+  arenaNotSet: '&cArena is not set!'
+  alrInArena: '&cYou are already in arena'
+  itemsYSet: '&7Items Y coordination for &b%arena% &7set!'
+  guiTitle: '&bInventory editor'
+  noEdit: '&cYou can not edit your inventory here!'
+  arenaDeleted: '&7Arena &b%arena% &7deleted'
+  invSaved: '&aInventory saved & loaded'
+  died: '&b%victim% &7died'
+  killedBy: '&b%victim% &7got killed by &b%killer%'
+  playerLeft: '&7Player &b%player% &7left the arena'
+  playerJoined: '&7Player &b%player% &7joined the arena!'
+  noTeleport: '&cYou can not teleport there!'
+  arenaAlrExists: '&cArena already exists!'
+defaultInventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"&aDiamond sword"}],"text":""}'
+      enchants:
+        KNOCKBACK: 1
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SANDSTONE
+    amount: 64
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 16
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_GOLDEN_APPLE
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FISHING_ROD
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAVA_BUCKET
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+armor:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+commandsAfterLeave:
+- lobby
+commandsAfterKill:
+- eco give %player% 0
