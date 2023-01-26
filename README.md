@@ -86,7 +86,8 @@ The ADE-SMP project welcomes contributions from the community in the form of pul
 - Pull requests should be detailed and clearly explain the problem and solution, or if it was a new feature then explain how it is implemented.
 - Pull requests should include tests, where applicable.
 - Pull requests should be related to:
-```SECURITY PATCHES, new plugins, new APIs, new textures, new datapacks, performance optimization, updating the server to the newer version, adding APIs, improving pre-added APIs and plugins, adding maps/worlds, and updating plugins.
+```
+SECURITY PATCHES, NEW PLUGINS, new APIs, new textures, new datapacks, performance optimization, updating the server to the newer version, adding APIs, improving pre-added APIs and plugins, adding maps/worlds, and updating plugins.
 ```
 
 To submit a pull request, please follow these steps:
@@ -97,13 +98,17 @@ Create a new branch for your changes.
 
 Make your changes, and ensure that your code adheres to the project's coding style and standards.
 
+Make sure that changes adheres to the to the project's file structure.
+
+**NOTE:** if you use a public/free premade datapack, texture, plugin, api, map or whatever kind of resources, please consider to credit it in the ```cr.md```, and make soure that you have the rights! 
+
 Commit your changes and push them to your fork.
 
 Submit a pull request to the ADE-SMP repository.
 
-We will review all pull requests and may request additional changes before merging.
+I will review all pull requests and may request additional changes before merging.
 
-We greatly appreciate the time and effort that developers put into the project, and we are grateful for their contributions. Please feel free to submit a pull request on Github to contribute to the project.
+I greatly appreciate the time and effort that developers, builders and designers put into the project, and I am grateful for their contributions. Please feel free to submit a pull request on Github to contribute to the project.
 
 
 ## FUNDING/DONATION
