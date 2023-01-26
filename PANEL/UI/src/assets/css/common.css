@@ -1,0 +1,187 @@
+/* Copyright (C) 2022 MCSManager <mcsmanager-dev@outlook.com> */
+
+/* menu */
+#app-menu {
+  height: 100%;
+  transition: all 0.4s;
+}
+
+#app-menu aside {
+  transition: all 0.4s 0.2s;
+}
+
+#app-menu aside:hover {
+  width: 250px !important;
+}
+
+/* animation */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Title and subtitle components */
+.sub-title {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.sub-title-title {
+  font-size: 14px;
+  color: #000000;
+  margin: 0px;
+}
+.sub-title-info {
+  font-size: 13px;
+  color: gray;
+  margin: 0px;
+}
+
+.select-tag {
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.select-tag:hover {
+  border: 1px solid rgb(11, 78, 165);
+}
+
+.alink {
+  text-decoration: underline;
+}
+
+.input-label {
+  font-size: 14px;
+  margin: 8px 0px;
+  display: inline-block;
+}
+
+/* list item column */
+.list-item {
+  margin: 2px 0px;
+  padding: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: #dfdfdf;
+  border-radius: 4px;
+}
+
+.drawer-body {
+  margin: 0px 20px;
+  overflow-y: auto;
+}
+
+/* Item value table on the home page */
+.overview-info-title {
+  /* text-align: center; */
+  color: rgb(66, 66, 66);
+  font-size: 12px;
+  margin-top: 0px;
+}
+.overview-info-value {
+  /* text-align: center; */
+  font-size: 14px;
+}
+.overview-info-hr {
+  line-height: normal;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(122, 122, 122);
+}
+
+/* FAQ column connection attribute collection */
+.manualLink {
+  display: block;
+  color: black;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.manualLink:hover {
+  color: #006eff !important;
+}
+
+.manual-link-block-wrapper {
+  margin: 4px;
+  text-align: center;
+}
+
+.manual-link-block {
+  background-color: #ebeef3;
+  display: block;
+  padding: 8px;
+  line-height: 1.5;
+  transition: all 0.4s;
+}
+.manual-link-block:hover {
+  background-color: #caced6;
+}
+
+.CodeMirror {
+  font-family: "Courier New", Courier, monospace;
+  height: 100%;
+}
+
+/* Card CSS title element */
+.box-card-title-more {
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-tip:before {
+  content: "-";
+  margin-right: 6px;
+  border-radius: 2px;
+  color: #909399;
+  background-color: #909399;
+}
+.title-tip-danger:before {
+  content: "-";
+  margin-right: 6px;
+  border-radius: 2px;
+  color: #f56c6c;
+  background-color: #f56c6c;
+}
+.title-tip-success:before {
+  content: "-";
+  margin-right: 6px;
+  border-radius: 2px;
+  color: #67c23a;
+  background-color: #67c23a;
+}
+
+.title-tip-warning:before {
+  content: "-";
+  margin-right: 6px;
+  border-radius: 2px;
+  color: #e6a23c;
+  background-color: #e6a23c;
+}
+.title-tip-primary:before {
+  content: "-";
+  margin-right: 6px;
+  border-radius: 2px;
+  color: #409eff;
+  background-color: #409eff;
+}

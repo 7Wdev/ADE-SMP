@@ -1,0 +1,52 @@
+{
+    "nickname": "Ade-Smp",
+    "startCommand": "your_custom start command",
+    "stopCommand": "stop",
+    "cwd": "server.jar path",
+    "ie": "UTF8",
+    "oe": "UTF8",
+    "createDatetime": "15/01/2023",
+    "lastDatetime": "21/01/2023 11:28",
+    "type": "minecraft/java",
+    "tag": [],
+    "endTime": "",
+    "fileCode": "UTF8",
+    "processType": "general",
+    "updateCommand": "",
+    "crlf": 2,
+    "actionCommandList": [],
+    "terminalOption": {
+        "haveColor": true,
+        "pty": true,
+        "ptyWindowCol": 140,
+        "ptyWindowRow": 40
+    },
+    "eventTask": {
+        "autoStart": false,
+        "autoRestart": true,
+        "ignore": false
+    },
+    "docker": {
+        "containerName": "",
+        "image": "",
+        "ports": [],
+        "extraVolumes": [],
+        "memory": null,
+        "networkMode": "bridge",
+        "networkAliases": [],
+        "cpusetCpus": "",
+        "cpuUsage": null,
+        "maxSpace": null,
+        "io": null,
+        "network": null
+    },
+    "pingConfig": {
+        "ip": "",
+        "port": 25565,
+        "type": 1
+    },
+    "extraServiceConfig": {
+        "openFrpTunnelId": "",
+        "openFrpToken": ""
+    }
+}

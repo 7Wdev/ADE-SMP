@@ -1,0 +1,126 @@
+/* Copyright (C) 2022 MCSManager <mcsmanager-dev@outlook.com> */
+
+/* Tools */
+.row-mb {
+  margin-bottom: 10px;
+}
+
+.row-mb-12 {
+  margin-bottom: 20px;
+}
+
+.row-mt {
+  margin-top: 10px;
+}
+
+.row-mt-20 {
+  margin-top: 20px;
+}
+
+.row-mt-40 {
+  margin-top: 40px;
+}
+
+.row {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+/* public text color */
+
+.color-red {
+  color: #f56c6c;
+}
+
+.color-red-2 {
+  color: #ed3d3d;
+}
+
+.color-green {
+  color: #67c23a;
+}
+
+.color-yellow {
+  color: #e6a23c;
+}
+
+.color-gray {
+  color: #909399;
+}
+
+.color-blue {
+  color: #409eff;
+}
+
+/* Flex left and right layout */
+
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-center {
+  justify-content: center;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.margin-4 {
+  margin: 4px;
+}
+
+.margin-8 {
+  margin: 8px;
+}
+
+.margin-2-4 {
+  margin: 2px 4px;
+}
+
+.instance-table-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.text-overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.require-field:before {
+  content: "*";
+  color: #f56c6c;
+  margin-right: 4px;
+}

@@ -1,0 +1,26 @@
+/* Copyright (C) 2022 MCSManager <mcsmanager-dev@outlook.com> */
+
+@media (max-width: 900px) {
+  .only-pc-display {
+    display: none;
+  }
+  .only-phone-display {
+    display: block;
+  }
+
+  .col-md-responsive > *,
+  .col-responsive > * {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 900px) {
+  .only-phone-display {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .phone-row-mt {
+    margin-top: 10px;
+  }
+}
