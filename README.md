@@ -20,6 +20,7 @@ Also It Makes The Server More Secure By Increasing The Rate Of Releasing Securit
 So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating In ADE-SMP!
 
 
+
 # ABOUT SERVER
 **ADE-SMP Is An Open Sourced Minecraft Cross Platfrom SMP Server.**
 It has many cool features such as Earth Map, Mods, Economy, Shop as well as some MiniGames and more...
@@ -76,6 +77,7 @@ The server is now officially open! (Welcome - Have Fun ♥)
 Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 
 
+
 ## FEATURE REQUEST/BUG REPORT
 
 
@@ -111,6 +113,7 @@ I will review all pull requests and may request additional changes before mergin
 I greatly appreciate the time and effort that developers, builders and designers put into the project, and I am grateful for their contributions. Please feel free to submit a pull request on Github to contribute to the project.
 
 
+
 ## FUNDING/DONATION
 Adventure awaits in the world of ADE-SMP, but we need your help to keep the journey going.
 As a community-driven open-source Minecraft server, we rely on the support of players and users like you to keep our server up and running.
@@ -127,6 +130,7 @@ You can make a difference by donating via [![PayPal](https://img.shields.io/badg
 Together, we can make ADE-SMP a world where imagination has no limits and adventure is always within reach. Thank you for your support!
 
 
+
 ## AKNOWLEDGEMETS 
 I would like to express my deepest gratitude to the individuals and organizations who contributed and supported the ADE-SMP project.
 
@@ -141,6 +145,7 @@ Finally, I would like to acknowledge all the open-source libraries, frameworks, 
 - Credits: [credits](https://github.com/7Wdev/ADE-SMP/cr.md)
 
 Thank you all for your support and help.
+
 
 
 ## CONTRIBUTIONS
