@@ -90,10 +90,15 @@ The ADE-SMP project welcomes contributions from the community in the form of pul
 To submit a pull request, please follow these steps:
 
 Fork the ADE-SMP repository on Github.
+
 Create a new branch for your changes.
+
 Make your changes, and ensure that your code adheres to the project's coding style and standards.
+
 Commit your changes and push them to your fork.
+
 Submit a pull request to the ADE-SMP repository.
+
 We will review all pull requests and may request additional changes before merging.
 
 We greatly appreciate the time and effort that developers put into the project, and we are grateful for their contributions. Please feel free to submit a pull request on Github to contribute to the project.
