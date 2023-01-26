@@ -22,7 +22,7 @@ So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating I
 
 
 # ABOUT SERVER
-**ADE-SMP Is An Open Sourced Minecraft Cross Platfrom SMP Server.**
+**ADE-SMP Is An Open Sourced Minecraft Cross Platform SMP Server.**
 It has many cool features such as Earth Map, Mods, Economy, Shop as well as some MiniGames and more...
 The server is now officially open! (Welcome - Have Fun ♥)
 
