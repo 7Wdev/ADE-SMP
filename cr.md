@@ -2,19 +2,19 @@
 
 Name: world
 
-Type: world
+- Type: world
 
-Link: (https://earth.motfe.net/)
+- Link: https://earth.motfe.net/
 
-Author: Mattias Brennecke
+- Author: Mattias Brennecke
 
 <br >
 
 Name: SimpleKitPvp
 
-Type: world
+- Type: world
 
-Link: (https://www.planetminecraft.com/project/kitpvparenabystalky/)
+- Link: https://www.planetminecraft.com/project/kitpvparenabystalky/
 
-Author: MrStalky
+- Author: MrStalky
 
