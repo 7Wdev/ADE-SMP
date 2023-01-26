@@ -100,7 +100,7 @@ Make your changes, and ensure that your code adheres to the project's coding sty
 
 Make sure that changes adheres to the to the project's file structure.
 
-**NOTE:** if you use a public/free premade datapack, texture, plugin, api, map or whatever kind of resources, please consider to credit it in the ```cr.md```, and make soure that you have the rights! 
+**NOTE:** if you use a public/free premade datapack, texture, plugin, api, map or whatever kind of resources, please consider to credit it in the ```cr.md```, and make sure that you have the rights! 
 
 Commit your changes and push them to your fork.
 
