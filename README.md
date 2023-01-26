@@ -87,7 +87,7 @@ The ADE-SMP project welcomes contributions from the community in the form of pul
 - Pull requests should include tests, where applicable.
 - Pull requests should be related to:
 ```
-SECURITY PATCHES, NEW PLUGINS, new APIs, new textures, new datapacks, performance optimization, updating the server to the newer version, adding APIs, improving pre-added APIs and plugins, adding maps/worlds, and updating plugins.
+SECURITY PATCHES, NEW PLUGINS, NEW APIs, NEW TEXTURES, NEW DATAPACKS, PERFORMANCE OPTIMIZATION, UPDATING THE SERVER TO NEWER VERSION, MODIFYING APIs, IMPROVING PRE-ADDED APIs AND PLUGINS, ADDING MAPS/WORLDS/BUILDINGS, UPDATING PLUGINS, PANEL IMPROVEMENT, REDESIGN SERVER/PANEL/LOGO, or whatever kind of modification/deletion/addition.
 ```
 
 To submit a pull request, please follow these steps:
@@ -125,6 +125,7 @@ Keep in mind, we pride ourselves in being a fair and inclusive server, where eve
 You can make a difference by donating via [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/AdeIssawe).
 
 Together, we can make ADE-SMP a world where imagination has no limits and adventure is always within reach. Thank you for your support!
+
 
 ## AKNOWLEDGEMETS 
 I would like to express my deepest gratitude to the individuals and organizations who contributed and supported the ADE-SMP project.
