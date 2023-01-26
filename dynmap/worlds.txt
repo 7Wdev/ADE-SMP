@@ -1,0 +1,6 @@
+worlds:
+  - name: world
+    title: "Normal Survival World"
+    enabled: true
+  - name: SimpleKitPvp
+    enabled: false

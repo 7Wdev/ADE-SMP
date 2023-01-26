@@ -5,6 +5,8 @@ TODO.txt
 .zip
 *.mcpack
 .mcpack
+servermain
+servermain/*
 
 #DAEMON PANEL
 /PANEL/Daemon/server/

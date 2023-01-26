@@ -1,0 +1,4 @@
+shaders:
+  - class: org.dynmap.hdmap.TexturePackHDShader
+    name: stdtexture
+    texturepack: assets.zip
