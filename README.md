@@ -2,7 +2,7 @@
 
 [![forthebadge made-with-java](https://forthebadge.com/images/badges/made-with-java.svg)](https://java.com/)
 
-[![License: MIT](https://img.shields.io/badge/license-GNU-blue.svg)](LICENSE)
+[![License: GNU](https://img.shields.io/badge/license-GNU-blue.svg)](LICENSE)
 [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH)
 
 # ADE-SMP
@@ -81,6 +81,19 @@ Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 ## FUNDING/DONATION
 
 ## AKNOWLEDGEMETS 
+I would like to express my deepest gratitude to the individuals and organizations who contributed and supported the ADE-SMP project.
+
+First and foremost, I would like to thank the 7Wdev team for their tireless efforts in developing and maintaining this project. I would also like to thank the community of developers, who have contributed to the codebase, reported bugs, and provided valuable feedback. As well as the comunity of builders and textures designers for their effort.
+
+I would like to thank all the users of ADE-SMP for their interest and support. The feedback from the community is always incredibly helpful in shaping the project.
+
+I would also like to thank our mentors and advisors for their guidance and support throughout the development of ADE-SMP.
+
+Finally, I would like to acknowledge all the open-source libraries, frameworks, free plugins, pre-built maps and textures  that were used in this project, which have made the development process much easier. I would like to give the credits for creators and developers who made them:
+
+- Credits: [credits](https://github.com/7Wdev/ADE-SMP/cr.md)
+
+Thank you all for your support and help.
 
 ## CONTRIBUTIONS
 Any contributions are appreciated. Please feel free to reach out to us on [![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.gg/bU7HreUJJH) if
