@@ -82,10 +82,11 @@ Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 ## PR REQUESTS
 The ADE-SMP project welcomes contributions from the community in the form of pull requests. If you are interested in making a contribution, please keep in mind the following guidelines:
 
-Pull requests should be focused on one specific issue or feature.
-Pull requests should be detailed and clearly explain the problem and solution.
-Pull requests should include tests and documentation, where applicable.
-Pull requests should be related to security patches, new plugins, new APIs, new textures, new datapacks, performance optimization, updating the server to the newer version, adding APIs, improving pre-added APIs and plugins, adding maps/worlds, and updating plugins.
+- Pull requests should be focused on one specific issue or feature.
+- Pull requests should be detailed and clearly explain the problem and solution.
+- Pull requests should include tests and documentation, where applicable.
+- Pull requests should be related to security patches, new plugins, new APIs, new textures, new datapacks, performance optimization, updating the server to the newer version, adding APIs, improving pre-added APIs and plugins, adding maps/worlds, and updating plugins.
+
 To submit a pull request, please follow these steps:
 
 Fork the ADE-SMP repository on Github.
