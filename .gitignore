@@ -20,7 +20,6 @@ servermain/*
 /PANEL/Daemon/tmp/
 /PANEL/Daemon/dist/
 /PANEL/Daemon/production/
-/PANEL/Daemon/*.bat
 /PANEL/Daemon/test_file/
 /PANEL/Daemon/core/*.json
 /PANEL/Daemon/public/common/URL.js
