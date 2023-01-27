@@ -147,7 +147,7 @@ I would also like to thank our mentors and advisors for their guidance and suppo
 
 Finally, I would like to acknowledge all the open-source libraries, frameworks, free plugins, pre-built maps and textures  that were used in this project, which have made the development process much easier. I would like to give the credits for creators and developers who made them:
 
-- Credits: [credits](https://github.com/7Wdev/ADE-SMP/cr.md)
+- Credits: [credits](https://github.com/7Wdev/ADE-SMP/blob/main/cr.md)
 
 Thank you all for your support and help.
 
