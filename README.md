@@ -19,7 +19,7 @@ By Open Sourcing The Server We Enables The Opportunity To Maintain It Faster And
 Also It Makes The Server More Secure By Increasing The Rate Of Releasing Security Patches.
 So Yea Read All The ReadME File And Have Fun Playing, Creating, And Innovating In ADE-SMP!
 
-
+<br />
 
 # ABOUT SERVER
 **ADE-SMP Is An Open Sourced Minecraft Cross Platform SMP Server.**
@@ -76,11 +76,11 @@ The server is now officially open! (Welcome - Have Fun ♥)
 
 Github: [ADE-SMP](https://github.com/7Wdev/ADE-SMP)||
 
-
+<br />
 
 ## FEATURE REQUEST/BUG REPORT
 
-
+<br />
 
 ## PR REQUESTS
 The ADE-SMP project welcomes contributions from the community in the form of pull requests. If you are interested in making a contribution, please keep in mind the following guidelines:
@@ -113,7 +113,7 @@ I will review all pull requests and may request additional changes before mergin
 
 I greatly appreciate the time and effort that developers, builders and designers put into the project, and I am grateful for their contributions. Please feel free to submit a pull request on Github to contribute to the project.
 
-
+<br />
 
 ## FUNDING/DONATION
 Adventure awaits in the world of ADE-SMP, but we need your help to keep the journey going.
@@ -130,11 +130,11 @@ You can make a difference by donating via [![PayPal](https://img.shields.io/badg
 
 Together, we can make ADE-SMP a world where imagination has no limits and adventure is always within reach. Thank you for your support!
 
-
+<br />
 
 ## WIKI
 
-
+<br />
 
 ## AKNOWLEDGEMETS 
 I would like to express my deepest gratitude to the individuals and organizations who contributed and supported the ADE-SMP project.
@@ -151,7 +151,7 @@ Finally, I would like to acknowledge all the open-source libraries, frameworks, 
 
 Thank you all for your support and help.
 
-
+<br />
 
 ## CONTRIBUTIONS
 Any contributions are appreciated. Please feel free to reach out to us on [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bU7HreUJJH) if
