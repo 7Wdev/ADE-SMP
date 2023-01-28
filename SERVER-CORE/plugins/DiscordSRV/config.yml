@@ -87,7 +87,7 @@ Experiment_WebhookChatMessageUsernameFilters: {}
 # Embed & webhook image/avatar url format
 # Alternative embed avatar url for offline servers:
 # https://cravatar.eu/helmavatar/{username}/{size}.png#{texture}
-AvatarUrl: https://api.creepernation.net/combo/{uuid}
+AvatarUrl: our custom skin api
 
 # Reserializer
 # Converts formatting (bold, italics, underline, strikethrough) between Minecraft and Discord

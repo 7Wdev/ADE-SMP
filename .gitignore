@@ -7,6 +7,8 @@ TODO.txt
 .mcpack
 servermain
 servermain/*
+node_modules
+node_modules/*
 
 #DAEMON PANEL
 /PANEL/Daemon/server/
