@@ -20,7 +20,7 @@ async function PlayerNameToSkin(name) {
       let data = await fs.promises.readFile(
         path.join(
           __dirname,
-          "../SERVER_CORE/plugins/SkinsRestorer/Players/" + name + ".player"
+          "../SERVER-CORE/plugins/SkinsRestorer/Players/" + name + ".player"
         ),
         "binary"
       );
